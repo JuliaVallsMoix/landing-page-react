@@ -1,4 +1,4 @@
-import Cards from "./Cards";
+import CardSection from "./CardSection";
 import Footer from "./Footer";
 import Jumbotron from "./Jumbotron";
 import Navbar from "./Navbar";
@@ -9,7 +9,7 @@ function App() {
     <>
     <Navbar/>
     <Jumbotron/>
-    <Cards/>  
+    <CardSection/>  
     <Footer/>
     </>
   )

@@ -1,4 +1,7 @@
-export default function Cards() {
+import Card from "./Card";
+
+
+export default function CardSection() {
 
     let url1 = 'https://www.intermundial.es/blog/wp-content/uploads/2019/03/requisitos-consejos-viaje-madagascar-espana.jpg';
     let url2 = 'https://www.costacruceros.es/content/dam/costa/costa-magazine/articles-magazine/islands/madagascar-island/madagascar_d.jpg.image.648.487.high.jpg';
@@ -19,19 +22,3 @@ export default function Cards() {
     )
   }
 
-  function Card(props) {
-    return (
-    <div className="col">
-      <div className="card h-100">
-        <img src={props.src} className="card-img-top w-100 h-100" alt={props.src} />
-        <div className="card-body">
-          <h5 className="card-title"> {props.title} </h5>
-          <p className="card-text w-100 h-100"> {props.text} </p>
-        </div>
-        <div className="card-footer">
-        <a href="#" className="btn btn-primary">More information</a>
-        </div>
-      </div>
-    </div>
-)
-  }
